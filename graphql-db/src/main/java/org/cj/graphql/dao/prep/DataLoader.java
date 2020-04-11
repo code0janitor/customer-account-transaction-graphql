@@ -31,6 +31,7 @@ public class DataLoader {
                 "Yanki", "Chatkula", "EN", "Add-On", "1234", LocalDate.now(), "test@testmenot.in");
         c1.addAccount(new Account("Yanki C", "4321", "02/20", "02/24"));
         c1.addAccount(new Account("Yanki Chat", "3214", "01/19", "02/23"));
+
         Customer c2 = new Customer(
                 "Lola", "Ctam", "EN", "Add-On", "9876", LocalDate.now(), "test@testmenot.in");
         c2.addAccount(new Account("Lola C", "0987", "02/20", "02/24"));
