@@ -40,7 +40,7 @@ public class Customer implements Serializable {
     private String ssnLast4;
 
     @Column(name = "dob", nullable = false)
-    private LocalDate dateOfBirth;
+    private String dateOfBirth;
 
     @Column(name = "email", nullable = false)
     private String email;
@@ -57,7 +57,7 @@ public class Customer implements Serializable {
         1. fix the error with @RequiredArgsConstructor
         2. remove this manual definition
    */
-    public Customer(String firstName, String lastName, String languagePreference, String customerType, String ssnLast4, LocalDate dateOfBirth, String email) {
+    public Customer(String firstName, String lastName, String languagePreference, String customerType, String ssnLast4, String dateOfBirth, String email) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.languagePreference = languagePreference;

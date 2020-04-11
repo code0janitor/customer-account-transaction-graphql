@@ -1,4 +1,4 @@
-package org.cj.graphql.web.conf;
+package org.cj.graphql.conf;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
