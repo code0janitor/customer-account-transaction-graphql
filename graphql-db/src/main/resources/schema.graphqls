@@ -1,0 +1,18 @@
+schema {
+    query: Query
+}
+
+type Query {
+  all: [Customer]
+}
+
+type Customer {
+    customerId: Int
+    firstName: String
+    languagePreference: String
+    lastName: String
+    customerType: String
+    ssnLast4: String
+    dateOfBirth : String
+    email: String
+}

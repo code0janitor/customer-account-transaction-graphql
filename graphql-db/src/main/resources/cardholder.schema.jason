@@ -1,0 +1,44 @@
+
+{
+    customerId: string,
+    firstName: string,
+    languagePreference: string,
+    lastName: string,
+    addresses:
+    {
+        city: string,
+        countryCode: string,
+        postalCode: string,
+        county: string,
+        description: string,
+        stateProvince: string,
+        line3: string,
+        line2: string,
+        line1: string,
+        addressId: string
+    },
+    customerType: string,
+    ssnLast4: string,
+    meta:
+    {
+        countryCodes: string,
+        allowEmailFlag: string,
+        allowedAddressType: string,
+        postalCodePatterns: string,
+        stateProvince: string,
+        allowedPhoneTypes: string,
+        featureRules: string,
+        correspondenceAddressIds: string
+    },
+    phones:
+    [
+        {
+            number: string,
+            extension: string,
+            type: string,
+            value: string
+        }
+        ],
+     dateOfBirth: string,
+     email: string
+}
