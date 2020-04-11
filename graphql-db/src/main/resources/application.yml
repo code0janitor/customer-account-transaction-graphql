@@ -1,0 +1,18 @@
+#server:
+#  port: 8020
+#spring:
+#  datasource:
+#    driverClassName: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/CUSTOMER-ACCOUNT-TRANSACTION
+#    username: graphql
+#    password: graphql
+#  jpa:
+#    generate-ddl: true
+#    show-sql: true
+#
+#    hibernate:
+#      dialect: org.hibernate.dialect.MySQLDialect
+#      use-new-id-generator-mappings: false
+#      format_sql: true
+#      ddl-auto: create,update
+#      naming_strategy: org.hibernate.cfg.ImprovedNamingStrategy
