@@ -17,6 +17,17 @@ public class AllCustomerFetcher implements DataFetcher<List<Customer>> {
 
     @Override
     public List<Customer> get(DataFetchingEnvironment dataFetchingEnvironment) {
-        return customerRepo.findAll();
+
+        List<Customer> customers = customerRepo.findAll();
+        /*
+         //Uncomment when you need to print the information on the console.
+         customers.forEach(cust ->
+                {
+                    System.out.println(cust);
+                    cust.getAccounts().forEach(acct -> System.out.println(acct));
+                }
+                );*/
+
+        return customers;
     }
 }
