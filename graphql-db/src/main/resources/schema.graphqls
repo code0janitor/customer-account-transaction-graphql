@@ -15,4 +15,13 @@ type Customer {
     ssnLast4: String
     dateOfBirth : String
     email: String
+    accounts : [Account]
+}
+
+type Account {
+  accountId: Int
+  nameOnCard: String
+  cardLast4: String
+  issueDate: String
+  expiryDate: String
 }

@@ -29,7 +29,8 @@ public class DataLoader {
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>> Data Load <<<<<<<<<<<<<<<<<<<<<<<");
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<");
 
-
+/*
+        // Uncomment first few times to create the data...
         for(int index=1000; index<1100;index++) {
             int random = new Random().nextInt(index);
 
@@ -42,7 +43,8 @@ public class DataLoader {
             customerRepo.flush();
             System.out.println(" Record created >>>>" + "Yanki" + "-" + random);
 
-        }
+
+        }*/
         /*customerRepo.findAll().forEach(
                 customer -> System.out.println(customer)
         );*/
